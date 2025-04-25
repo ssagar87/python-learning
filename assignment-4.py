@@ -1,11 +1,11 @@
 #task 1
-# try:
-#     file1 = open("my_file.txt", "r")
-#     output = file1.read()
-#     print(output)
-#     file1.close()
-# except FileNotFoundError:
-#     print("Error: The file 'my_file.txt' does not exist.")
+try:
+    file1 = open("my_file.txt", "r")
+    output = file1.read()
+    print(output)
+    file1.close()
+except FileNotFoundError:
+    print("Error: The file 'my_file.txt' does not exist.")
 
 #task 2
 userInput = input("Enter text to write to the file: ")
